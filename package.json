@@ -1,0 +1,20 @@
+{
+  "name": "imgtopdf",
+  "version": "1.0.0",
+  "description": "this is the project for converting image to pdf for copying the text present in image",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "tesseract.js": "^2.0.0-alpha.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
